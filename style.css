@@ -60,7 +60,69 @@ main {
     background-color: white;
 }
 .main-info h1 {
-    width: 30%;
+    width: 35%;
     margin: 0 auto;
     height: auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.items {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.items img {
+    width: 20%;
+    height: 20%;
+    flex-direction: row;
+}
+.main-text {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    color: #1f2937;
+}
+aside {
+    background-color: #E5E7Eb;
+    position: relative;
+    bottom: 16px;
+}
+.aside-text {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.aside-text p {
+    font-size: 36px;
+    color: #1f2937;
+}
+.call {
+    background-color: #3882F6;
+    width: 70%;
+    margin: 0 auto;
+    height: 30%;
+    border-radius: 10px;
+    color: #E5E7Eb;
+}
+.call h1, p {
+    display: flex;
+    justify-content: center;  
+}
+.call button {
+    background-color: #3882F6;
+    border-radius: 5%;
+    border-style: none;
+    width: 15%;
+    height: 2rem;
+    color: #E5E7Eb;
+    font-weight: bold;
+    border: 2px solid white;
+    display: flex;
+}
+footer h1 {
+    display: flex;
+    justify-content: center;
 }
