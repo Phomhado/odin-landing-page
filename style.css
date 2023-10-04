@@ -56,11 +56,21 @@ header {
     color: #E5E7Eb;
     font-weight: bold;
 }
+header img {
+    width: 35%;
+    height: 10%;
+}
+.header-image {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 12em;
+}
 main {
     background-color: white;
 }
 .main-info h1 {
-    width: 35%;
+    width: 20%;
     margin: 0 auto;
     height: auto;
     font-size: 36px;
@@ -109,7 +119,8 @@ aside {
 }
 .call h1, p {
     display: flex;
-    justify-content: center;  
+    position: relative;
+    left: 20px;
 }
 .call button {
     background-color: #3882F6;
@@ -120,7 +131,9 @@ aside {
     color: #E5E7Eb;
     font-weight: bold;
     border: 2px solid white;
-    display: flex;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
 }
 footer h1 {
     display: flex;
